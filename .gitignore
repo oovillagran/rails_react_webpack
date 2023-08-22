@@ -33,4 +33,5 @@
 /app/assets/builds/*
 !/app/assets/builds/.keep
 
+# .gitignore linters files
 /node_modules
