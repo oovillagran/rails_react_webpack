@@ -6,8 +6,6 @@ Rails.application.routes.draw do
   root "greetings#index"
 
   namespace :api do
-    resources :greetings, only: [] do
-        get :greetings
-    end
+    get :greetings, to: 'greetings#greetings'
   end
 end
